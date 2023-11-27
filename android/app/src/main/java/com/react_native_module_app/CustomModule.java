@@ -19,7 +19,7 @@ public class CustomModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void displaytost(){
-        Toast.makeText(applicationContext, "Welcome to react-native world!!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(applicationContext, "Clicked successfully!!", Toast.LENGTH_SHORT).show();
     }
     
     @NonNull
